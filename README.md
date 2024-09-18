@@ -1,5 +1,6 @@
 **Objective:** Detect and highlight lane lines in images or video streams from a camera. This involves preprocessing, edge detection, region of interest (ROI) masking, and line detection using Hough Transform.
 Tools & Libraries: OpenCV for computer vision tasks, NumPy for numerical operations, and Matplotlib for visualizations.
+
 **Steps and Techniques**
 
 **Image Preprocessing:**
