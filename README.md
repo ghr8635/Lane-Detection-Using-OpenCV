@@ -10,10 +10,10 @@ Gaussian Blur: Apply Gaussian blur to reduce noise and improve edge detection.
 
 **Edge Detection:**
 
-Canny Edge Detection: Use the Canny edge detection algorithm to identify edges in the image. This is crucial for detecting lane lines.
-Region of Interest (ROI) Masking:
+  **Canny Edge Detection:** Use the Canny edge detection algorithm to identify edges in the image. This is crucial for detecting lane lines.
+  **Region of Interest (ROI) Masking:**
 
-Define ROI: Create a mask to focus on the region where lanes are expected (e.g., lower half of the image). This reduces computational complexity and improves detection accuracy.
+  **Define ROI:** Create a mask to focus on the region where lanes are expected (e.g., lower half of the image). This reduces computational complexity and improves detection accuracy.
 Line Detection:
 
 Hough Line Transform: Apply the Hough Line Transform to detect lines in the edge-detected image. This algorithm finds lines by mapping points in the image space to a parameter space.
